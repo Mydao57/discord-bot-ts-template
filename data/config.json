@@ -1,0 +1,16 @@
+{
+    "token": "",
+    "discordClientId": "",
+    "mongoUrl": "",
+
+
+
+    "devToken": "",
+    "devDiscordClientId": "",
+    "devGuildId": "",
+    "devMongoUrl": "",
+
+    "developerUserIds": [
+        ""
+    ]
+}

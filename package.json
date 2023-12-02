@@ -1,0 +1,21 @@
+{
+  "name": "discord-bot-template-ts",
+  "description": "A template for a discord.js 14 bot written in typescript",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "clean": "del /s /q build",
+    "build": "npx tsc --build",
+    "start": "npm run clean && npm run build && node build/index.js",
+    "startNoClean": "npm run build && node build/index.js",
+    "devStart": "npm run clean && npm run build && node build/index.js --development",
+    "devStartNoClean": "npm run build && node build/index.js --development"
+  },
+  "dependencies": {
+    "discord.js": "^14.14.1",
+    "glob": "^10.3.10",
+    "mongoose": "^8.0.2",
+    "typescript": "^5.3.2"
+  }
+}
